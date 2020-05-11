@@ -28,5 +28,6 @@ public class Practice_20200511 {
         char[] sol = s.toCharArray();
         Arrays.sort(sol);
         return new StringBuilder(new String(sol)).reverse().toString();
+        //StringBuilder 메모리 할당과 해제를 발생시키며 더하는 연산이아닌 기존에 데이터에 더하는 방식을 사용하기 때문에 상대적으로 부하가 적다.
     }
 }
